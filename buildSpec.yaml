@@ -15,7 +15,7 @@ phases:
             - ./deploy.sh -b
     post_build:
         commands:
-            - echo post-build-CD-manual
+            - echo post-build-CD-manual-email
 artifacts:
     files:
         - template.yaml
